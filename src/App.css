@@ -34,3 +34,13 @@ body {
   height: 150px;
   width: 50%;
 }
+
+#list {
+  width:fit-content;
+  margin:auto;
+  text-align: left;
+}
+
+#recommended {
+
+}

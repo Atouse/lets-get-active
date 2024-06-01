@@ -52,6 +52,24 @@ function App() {
       <Informations title={faxNoPrinter.health.title} desc={faxNoPrinter.health.desc} stats={faxNoPrinter.health.stats}></Informations>
       <Informations title={faxNoPrinter.mental.title} desc={faxNoPrinter.mental.desc} stats={faxNoPrinter.mental.stats}></Informations>
 
+      <div id="recommended">
+        <h1> What you can do to start: </h1>
+        <span> The recommended time for ages 19-64 adults for moderately intense exercise is 150 minutes segmented throughout the week with each session having a minimum of 10 minutes. </span>
+        <span> It can start with a simple 30 minute walk that is a faster pace than your normal walking speed 5 days a week </span>
+        <span> Aim to do some strength training at least 2 days of the week that target the major muscle groups the chest, arms, legs, back and shoulders. </span>
+        <div id="list">
+          <h2> List of suggested activities</h2>
+
+          <ul>
+            <li>Running</li>
+            <li>Biking</li>
+            <li>Any sports at your nearest community center</li>
+          </ul>
+        </div>
+
+
+      </div>
+
       <References ></References>
     </div>
   );
