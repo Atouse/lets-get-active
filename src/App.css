@@ -9,15 +9,28 @@
   top:0px;
   left:0px;
   z-index:1000;
+  display: table-row;
+  border-spacing: 50px;
 }
 
 
 #refs {
   text-align: center;
-  font-family: 'Times New Roman';
 }
 
 body {
   margin: 0;
   padding: 0;
+}
+
+#info {
+  text-align: center;
+  margin:20px;
+  display: table-cell;
+  background-color: greenyellow;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px;
+  height: 150px;
+  width: 50%;
 }
