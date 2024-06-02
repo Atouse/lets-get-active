@@ -7,7 +7,6 @@ const References = () => {
       <h2> References </h2>
       <div className="list">
         <ol >
-          <li><a href="https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/">List of more activities to do</a></li>
           <li><a href="https://www.redcross.ca/blog/2021/3/the-benefits-of-exercise-for-your-physical-and-mental-health"> Red cross </a></li>
           <li><a href="https://www.participaction.com/the-science/key-facts-and-stats/"> Participaction </a></li>
           <li><a href="https://health-infobase.canada.ca/src/doc/pass_childrenyouth_en.pdf"> Inactivity stats </a></li>
@@ -75,6 +74,7 @@ function App() {
             <li>Hiking</li>
             <li>Skipping</li>
             <li>Any sports at your nearest community center</li>
+            <li><a href="https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/">List of more activities to do</a></li>
           </ul>
         </div>
 
