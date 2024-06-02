@@ -57,7 +57,7 @@ function App() {
       <span> Everyone knows going to the gym means you'll be slimmer, faster and/or stronger, but what most people don't know are the other hidden benefits behind exercising.</span>
       <span> About 9.5% of children and youths meet the </span>
       <a href="https://csepguidelines.ca/">24-hour movement guideline</a>
-      <span> and the average number of hours they spend sitting or being inactive is 8.4 hours a day.</span>
+      <span> and the average number of hours they spend sitting or being inactive is 8.4 hours a day. Adolescent ages are the most impactful and the most crucial time to change your health behaviour.</span>
       <Informations title={faxNoPrinter.health.title} desc={faxNoPrinter.health.desc} stats={faxNoPrinter.health.stats}></Informations>
       <Informations title={faxNoPrinter.mental.title} desc={faxNoPrinter.mental.desc} stats={faxNoPrinter.mental.stats}></Informations>
 
