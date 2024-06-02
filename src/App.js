@@ -10,8 +10,7 @@ const References = () => {
           <li><a href="https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/">List of more activities to do</a></li>
           <li><a href="https://www.redcross.ca/blog/2021/3/the-benefits-of-exercise-for-your-physical-and-mental-health"> Red cross </a></li>
           <li><a href="https://www.participaction.com/the-science/key-facts-and-stats/"> Participaction </a></li>
-
-          <li>Milk</li>
+          <li><a href="https://health-infobase.canada.ca/src/doc/pass_childrenyouth_en.pdf"> Inactivity stats </a></li>
         </ol>
       </div>
     </div>
@@ -56,7 +55,9 @@ function App() {
     <div className="App">
       <h1> Benefits of exercising</h1>
       <span> Everyone knows going to the gym means you'll be slimmer, faster and/or stronger, but what most people don't know are the other hidden benefits behind exercising.</span>
-
+      <span> About 9.5% of children and youths meet the </span>
+      <a href="https://csepguidelines.ca/">24-hour movement guideline</a>
+      <span> and the average number of hours they spend sitting or being inactive is 8.4 hours a day.</span>
       <Informations title={faxNoPrinter.health.title} desc={faxNoPrinter.health.desc} stats={faxNoPrinter.health.stats}></Informations>
       <Informations title={faxNoPrinter.mental.title} desc={faxNoPrinter.mental.desc} stats={faxNoPrinter.mental.stats}></Informations>
 
