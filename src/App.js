@@ -7,9 +7,20 @@ const References = () => {
       <h2> References </h2>
       <div className="list">
         <ol >
-          <li><a href="https://www.redcross.ca/blog/2021/3/the-benefits-of-exercise-for-your-physical-and-mental-health"> Red cross </a></li>
-          <li><a href="https://www.participaction.com/the-science/key-facts-and-stats/"> Participaction </a></li>
-          <li><a href="https://health-infobase.canada.ca/src/doc/pass_childrenyouth_en.pdf"> Inactivity stats </a></li>
+          <li>
+            <span>"The Benefits of Exercise for Your Physical and Mental Health.” <i>Red Cross Canada,</i> 10 Mar. 2021,</span>
+            <a href="https://www.redcross.ca/blog/2021/3/the-benefits-of-exercise-for-your-physical-and-mental-health"> www.redcross.ca/blog/2021/3/the-benefits-of-exercise-for-your-physical-and-mental-health. </a>
+            </li>
+          <li>
+            <span><i>Key Statistics and Facts - Participaction,</i> .</span>
+            <a href="https://www.participaction.com/the-science/key-facts-and-stats/">www.participaction.com/the-science/key-facts-and-stats/</a></li>
+          <li>
+            <span><i>Physical Activity, Sedentary Behaviour And ...</i>, .</span>
+            <a href="https://health-infobase.canada.ca/src/doc/pass_childrenyouth_en.pdf"> https://health-infobase.canada.ca/src/doc/pass_childrenyouth_en.pdf.</a></li>
+          <li> 
+            <span>Government of Canada, Statistics Canada. “Health of Canadians Health Outcomes.” <i>Health Outcomes</i>, 22 Nov. 2023, </span>
+            <a href="https://www150.statcan.gc.ca/n1/pub/82-570-x/2023001/section1-eng.htm">https://www150.statcan.gc.ca/n1/pub/82-570-x/2023001/section1-eng.htm.</a>
+          </li>
         </ol>
       </div>
     </div>
@@ -23,7 +34,7 @@ const Informations = (info) => {
       <span> {info.desc}</span> 
       <h4> Some stats to note: </h4>
       <span> {info.stats} </span>
-      {/* <a href="#refs"> Reference</a> */}
+      <a href="#refs"> {info.reference}</a>
     </div>
   )
 
@@ -31,13 +42,11 @@ const Informations = (info) => {
 
 const faxNoPrinter = {
   "health": {
-    "title": "Health Benefits",
-    "desc" : "The long term benefits for your health are better cholesterol levels, lower levels of stress, and longer life span. It helps you become resilient to a plethora of cardiovascular, chronic and degenerative diseases.",
+    "title": "Physical Health Benefits",
+    "desc" : "The long term benefits for your health are better cholesterol levels, lower levels of stress, and longer life span. It helps you become resilient to many cardiovascular, chronic and degenerative diseases.",
     "stats" : `Daily physical activities drastically reduce cardiovascular risk factors. The Montreal Heart Institute found that exercise can reduce dangerous cholesterol, blood sugar, and blood pressure levels by 50%.
-     A big eye opener is the number of deaths caused by inactivity with approximately 3.2 million deaths attributed to lack of physical exercise and stands as the 4th highest risk factor for premature death and mortality.`
-  },
-  "economic": {
-
+     A big eye opener is the number of deaths caused by inactivity with approximately 3.2 million deaths attributed to lack of physical exercise and stands as the 4th highest risk factor for premature death and mortality.
+     In 2021, 35.5% of Canadians 18 or older were classified as overweight and 29.2% as obese. That's a 3.1% increase from 2015 (26.1%) and continues to show an upward trend.`,
   },
   "mental" : {
     "title" : "Mental Health",
@@ -46,7 +55,8 @@ const faxNoPrinter = {
      the brain to feel good and relaxed. Cardiovascular activities is the ideal way to improve your sleep because it build up your fatigue and mentally relaxed for a better nights 
      sleep. ` ,
     "stats" : ` Doing physical activites also helps with the social aspect of your life as well. 76% of Canadians feel that they are welcomed and accepted when doing recreational and physical activities.
-    69% of Canadians agree that getting active such as participating in recreational activities reduces self-harm behaviours and thoughts. `
+    From 2015 to 2021, the percentage of Canadians aged between 18-34 reporting excellent/good mental health has decreased from around 70% to below 55%, making it clear that there is a mental health decline
+    in young adults, piling onto the list of reasons to start exercising `
   }
 }
 function App() {
@@ -56,9 +66,11 @@ function App() {
       <span> Everyone knows going to the gym means you'll be slimmer, faster and/or stronger, but what most people don't know are the other hidden benefits behind exercising.</span>
       <span> About 9.5% of children and youths meet the </span>
       <a href="https://csepguidelines.ca/">24-hour movement guideline</a>
-      <span> and the average number of hours they spend sitting or being inactive is 8.4 hours a day. Adolescent ages are the most impactful and the most crucial time to change your health behaviour.</span>
-      <Informations title={faxNoPrinter.health.title} desc={faxNoPrinter.health.desc} stats={faxNoPrinter.health.stats}></Informations>
-      <Informations title={faxNoPrinter.mental.title} desc={faxNoPrinter.mental.desc} stats={faxNoPrinter.mental.stats}></Informations>
+      <span> and the average number of hours they spend sitting or being inactive is 8.4 hours a day.</span>     
+      <a href="#refs">[3]</a>
+      <span> Adolescent ages are the most impactful and the most crucial time to change your health behaviour.</span>
+      <Informations title={faxNoPrinter.health.title} desc={faxNoPrinter.health.desc} stats={faxNoPrinter.health.stats} reference="[1,2,4]"></Informations>
+      <Informations title={faxNoPrinter.mental.title} desc={faxNoPrinter.mental.desc} stats={faxNoPrinter.mental.stats} reference="[2,4]"></Informations>
 
       <div id="recommended">
         <h1> What you can do to start: </h1>
