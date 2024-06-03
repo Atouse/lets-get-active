@@ -65,18 +65,27 @@ function App() {
         <span> The recommended time for ages 19-64 adults for moderately intense exercise is 150 minutes segmented throughout the week with each session having a minimum of 10 minutes. </span>
         <span> It can start with a simple 30 minute walk that is a faster pace than your normal walking speed 5 days a week </span>
         <span> Aim to do some strength training at least 2 days of the week that target the major muscle groups the chest, arms, legs, back and shoulders. </span>
-        <div className="list">
-          <h2> List of suggested activities</h2>
 
-          <ul>
-            <li>Running</li>
-            <li>Biking</li>
-            <li>Hiking</li>
-            <li>Skipping</li>
-            <li>Any sports at your nearest community center</li>
-            <li><a href="https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/">List of more activities to do</a></li>
-          </ul>
+        <div id="images">
+          <img id="running" src={require('./assets/running.jpg')} alt="running"></img>
+
+          <div className="list">
+            <h2 id="suggestTitle"> List of suggested activities</h2>
+
+            <ul id="suggestList">
+              <li>Running</li>
+              <li>Biking</li>
+              <li>Hiking</li>
+              <li>Skipping</li>         
+              <li>Weight lifting</li>
+              <li>Any sports at your nearest community center</li>
+              <li><a href="https://www.nhs.uk/live-well/exercise/physical-activity-guidelines-for-adults-aged-19-to-64/">List of more activities to do</a></li>
+            </ul>
+          </div>
+          <img id="sports" src={require('./assets/sports.png')} alt="sports"></img>
+
         </div>
+
 
 
       </div>

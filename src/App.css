@@ -14,6 +14,30 @@
   overflow:auto;
 }
 
+#images {
+  display:flex;
+  align-items: center;
+  justify-content: center
+}
+
+#suggestTitle {
+  width:450px;
+  text-align: center;
+}
+
+#suggestList {
+  transform: translateX(125px);
+}
+
+#running {
+  width:60%;
+  padding:100px;
+}
+
+#sports {
+  width:70%;
+  padding: 100px;
+}
 
 #refs {
   text-align: center;
