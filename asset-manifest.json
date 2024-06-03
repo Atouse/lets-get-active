@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/lets-get-active/static/css/main.587206a7.css",
+    "main.js": "/lets-get-active/static/js/main.66cdf82f.js",
+    "static/js/453.d1ead18a.chunk.js": "/lets-get-active/static/js/453.d1ead18a.chunk.js",
+    "static/media/sports.png": "/lets-get-active/static/media/sports.872c894a281bd924fdd7.png",
+    "static/media/running.jpg": "/lets-get-active/static/media/running.af98b7e213b0fb7b8449.jpg",
+    "index.html": "/lets-get-active/index.html",
+    "main.587206a7.css.map": "/lets-get-active/static/css/main.587206a7.css.map",
+    "main.66cdf82f.js.map": "/lets-get-active/static/js/main.66cdf82f.js.map",
+    "453.d1ead18a.chunk.js.map": "/lets-get-active/static/js/453.d1ead18a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.587206a7.css",
+    "static/js/main.66cdf82f.js"
+  ]
+}
